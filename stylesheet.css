@@ -1,5 +1,6 @@
 header{
     color:black;
+    margin-top: 50px;
 }
 
 .header-container{
@@ -33,14 +34,28 @@ header ul{
     flex-direction: row;
 }
 
-header ul li{
+.nav-list-item{
+    opacity: 0.6;
+}
+
+.nav-list-item:hover{
+    opacity: 1.0;
+}
+
+header ul a{
     padding-right: 20px;
+    text-decoration: none;
 }
 
 header a{
     color: black;
     margin-left:auto;
     padding-top:10px;
+    opacity: 1.0;
+}
+
+header a :hover{
+    opacity: 0.6;
 }
 
 .top{
@@ -65,10 +80,181 @@ header a{
     padding: 40px 20px;
 }
 
-.btn{
+.top-btn{
     background-color: black;
     color: white;
     padding:15px 30px;
     margin-left: 30px;
     box-shadow: 4px 4px 4px black;
+    text-decoration: none;
+    opacity: 1.0;
+    transition: all 0.3s;
 }
+
+.top-btn:hover{
+    opacity: 0.8;
+}
+
+.concept{
+    width: 100%;
+    background-color: gainsboro;
+    margin-top: 60px;
+    height: 900px;
+}
+
+.concept-container{
+    margin: 0px auto;
+    width: 1170px;
+    position: relative;
+}
+
+.img1{
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    top: -20px;
+    right:40px;
+    box-shadow: 7px 7px 7px black;
+}
+
+.img2{
+    width: 630px;
+    height: 380px;
+    position: absolute;
+    top: 400px;
+    left: 20px;
+    box-shadow: 7px 7px 7px black;
+}
+
+.concept-text-wrapper{
+    position: absolute;
+    top: 500px;
+    right: 60px;
+}
+
+.concept h2{
+    font-size: 30px;
+}
+
+.concept p{
+    font-size: 18px;
+}
+
+.concept-btn{
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 1.0;
+}
+
+.concept-btn:hover{
+    opacity: 0.8;
+}
+
+.concept-text-wrapper:after{
+    content:'';
+    width:140px;
+    height: 2px;
+    display:block;
+    background-color: black;
+    margin-top: 10px;
+    opacity: 0.7;
+}
+
+.items{
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 150px;
+}
+
+.items-container{
+    width: 1100px;
+    margin: 0px auto;
+}
+
+.items-img-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.items-img-wrapper img{
+    width: 350px;
+    height: 480px;
+    box-shadow: 4px 4px 4px black;
+}
+
+
+
+.circle{
+    float: right;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgba(88, 87, 87,0.7);
+    margin: 40px 0px;
+    margin-right: 200px;
+    position: relative;
+}
+
+.items-btn{
+    font-size: 24px;
+    display: block;
+    width: 200px;
+    float: left;
+    text-decoration: none;
+    position: absolute;
+    top: 35px;
+    left:31%;
+    color: black;
+    opacity: 0.4;
+    transition: all 0.5s;
+}
+
+.items-btn:hover{
+    opacity: 0.8;
+}
+
+footer{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.footer-container{
+    width: 1170px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid rgb(175, 172, 172);
+    padding-top: 20px;
+}
+
+.footer-left{
+    position: relative;
+}
+
+.footer-logo{
+    opacity: 0.7;
+}
+
+.copy-right{
+    color: gray;
+    opacity: 0.8;
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    width: 200px;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    color: gray;
+    padding-top: 10px;
+    opacity: 0.8;
+}
+
+
