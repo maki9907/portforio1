@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <link href="stylesheet.css" rel="stylesheet">
+    <link rel="responsive" href="resopnsive.css">
+    <script src="moving.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -50,7 +52,7 @@
             <img class="img1" src="img/top1-image.jpg">
             <img class="img2" src="img/top2-image.jpg">
             <div class="concept-text-wrapper">
-                <h2>行きたい国が、きっと見つかる</h2>
+                <h2>行きたい国が、<br class="smartphone-display"><span>きっと見つかる</span></h2>
                 <p>観光、食べ物、人との出会いなど、
                     <br>旅の目的は人それぞれ。
                     <br>あなたに合った理想の国をさがすあなたへ。</p>
@@ -67,6 +69,9 @@
                 <img src="img/map.jpg">
                 <img src="img/backpack.jpg">
             </div>
+            <div class="items-img-slideshow">
+                <img id="mypic" src="img/passport.jpg">
+            </div>
             <div class="circle">
                 <a class="items-btn" href="#">MORE ITEMS</a>
             </div>
@@ -79,8 +84,11 @@
         <div class="footer-container">
             <div class="footer-left">
                 <img class="footer-logo" src="img/trip-logo.png">
-                <a href="#"></a>
-                <a href="#"></a>
+                <div class="footer-icons-box">
+                <a class="footer-icons" href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+                <a class="footer-icons" href="#"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+                </a>
+                </div>
                 <p class="copy-right">
                     <a></a>2020 MAKI9907 Co.. Ltd.
                 </p>
