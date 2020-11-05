@@ -278,6 +278,96 @@ nav a{
     display: none;
 }
 
+/*メニューページに関するcss*/
+.menu-page{
+    width: 95%;
+    margin: 0px auto;
+}
+
+.menu-page-top{
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-page-top img{
+    width: 100px;
+    height:60px;
+}
+
+.menu-page-top-right{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.menu-page-top-right .fa-times{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-weight: 100;
+    opacity: 0.7;
+    transition: all 0.7s;
+}
+
+.menu-page-top-right .fa-times:hover{
+    opacity: 1.0;
+}
+
+
+
+.menu-page-top-right p{
+    margin-right: 20px;
+}
+
+.menu-circle{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid black;
+    position: absolute;
+    top: 0px;
+    left: 55px;
+    opacity: 0.5;
+    transition:all 0.7s;
+}
+
+.menu-circle:hover{
+    opacity: 1.0;
+}
+
+.menu-page-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-page-img img{
+    width: 450px;
+    height: 640px;
+}
+
+.menu-page-nav{
+    padding-left: 80px;
+}
+
+.menu-page-nav a{
+    text-decoration: none;
+    padding-top: 20px;
+    color: black;
+    transition: all 0.8s;
+}
+
+.menu-page-nav a:hover{
+    opacity: 0.5;
+}
+
+.menu-page-bottom{
+    border-top: 1px solid black;
+    margin-top: 20px;
+    width: 150px;
+}
+
 @media(max-width:600px){
     .header-container{
         width: 90%;
@@ -424,5 +514,6 @@ nav a{
         padding-right: 0px;
     }
 
+    
 
 }

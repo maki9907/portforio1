@@ -1,0 +1,10 @@
+@media(max-width:600px){
+    .header-container{
+        width: 90%;
+        margin: 0px auto;
+    }
+
+    header ul{
+        display: none;
+    }
+}
